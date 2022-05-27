@@ -1,1 +1,33 @@
-/* add your CSS here */
+main {
+    width: 405px;
+    border: 1px solid lightgray;
+    box-shadow: 10px 5px 5px lightgray;
+    padding: 10px;
+}
+
+img {
+    width: 400px;
+}
+
+section {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+#fact {
+    font-style: italic;
+}
+
+ul {
+    padding-left: 0px;
+}
+
+li {
+    list-style: none;
+    margin-left: 0px;
+}
+
+span {
+    font-weight: bold;
+}
