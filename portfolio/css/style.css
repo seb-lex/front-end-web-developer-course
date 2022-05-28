@@ -39,14 +39,16 @@ h2 {
     height: 120px;
 }
 
-/* #left {
-    margin-left: 0px;
-} */
-
-figure {
+article {
+    width: 33.3333%;
     text-align: center;
 }
 
-figcaption {
+article img {
+    width: 100%;
+    padding: 10px;
+}
+
+span {
     font-weight: bold;
 }
