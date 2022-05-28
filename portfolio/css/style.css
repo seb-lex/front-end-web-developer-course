@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    font-family: 'Roboto';
+}
+
+.row {
+    width: 100%;
+    display: flex;
+}
+
+header {
+    height: 140px;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+header div {
+    width: 680px;
+    text-align: right;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: lightgray
+}
+
+#logo {
+    height: 120px;
+}
+
+/* #left {
+    margin-left: 0px;
+} */
+
+figure {
+    text-align: center;
+}
+
+figcaption {
+    font-weight: bold;
+}
