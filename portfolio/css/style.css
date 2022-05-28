@@ -3,11 +3,16 @@
 }
 
 main {
-    width: 100%;
     max-width: 800px;
     margin: 0 auto;
     font-family: 'Roboto';
 }
+
+section {
+    display: flex;
+    justify-content: space-between;
+}
+
 
 .row {
     width: 100%;
@@ -39,16 +44,14 @@ h2 {
     height: 120px;
 }
 
+span {
+    font-weight: bold;
+}
+
 article {
-    width: 33.3333%;
     text-align: center;
 }
 
-article img {
-    width: 100%;
-    padding: 10px;
-}
-
-span {
-    font-weight: bold;
+a {
+    font-size: small;
 }
