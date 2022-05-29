@@ -32,11 +32,13 @@ header div {
 
 h1 {
     margin-bottom: 0px;
+    font-size: 60px;
+    margin-top: 10px;
 }
 
 h2 {
     margin-top: 30px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
     color: lightgray
 }
 
@@ -46,12 +48,18 @@ h2 {
 
 span {
     font-weight: bold;
+    font-size: 18px;
 }
 
 article {
     text-align: center;
+    padding: 0px;
 }
 
 a {
     font-size: small;
+}
+
+img, br, span, a {
+    padding: 10px 0px 15px 0px;
 }
